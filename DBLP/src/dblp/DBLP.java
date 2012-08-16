@@ -18,9 +18,20 @@ public class DBLP {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException, SAXException {
-        List<Author> authors = Author.searchAuthors("scheck");
-        for (Author a : authors) {
-            System.out.println(a);
+        Author a = Author.searchAuthors("Ralf Lämmel").get(0);
+        
+        System.out.println(a.getName() + ":");
+        List<String> pubs = Author.getPublicationKeyList(a);
+        for (String str : pubs) {
+            System.out.println(new Publication(str));
+        }
+        
+        a = Author.searchAuthors("Jean-Marie Favre").get(0);
+        
+        System.out.println(a.getName() + ":");
+        pubs = Author.getPublicationKeyList(a);
+        for (String str : pubs) {
+            System.out.println(new Publication(str));
         }
     }
 }
