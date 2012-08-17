@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package dblp;
 
 import java.io.IOException;
@@ -15,14 +11,15 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 /**
- *
- * @author Martin
+ * Used for general author information
+ * @author Martin Leinberger
  */
 public class Author {
+    //Searching for authors
     private final static String AUTHOR_SEARCH_URL = "http://dblp.uni-trier.de/search/author?xauthor=:param:";
     
     public static List<Author> searchAuthors(String param) throws IOException, SAXException {
-        List<Author> authors = new ArrayList<>();      
+        List<Author> authors = new ArrayList<Author>();      
         String encoded = URLEncoder.encode(param, "UTF-8");
         HttpResponse response = Utils.executeRequest(new HttpGet(AUTHOR_SEARCH_URL.replace(":param:", encoded)));
         
@@ -34,10 +31,11 @@ public class Author {
         return authors;
     }
     
+    //getting keys for all published articles by an author
     private final static String PUBLICATIONS_URL = "http://dblp.uni-trier.de/rec/pers/:urlpt:/xk";
     
     public static List<String> getPublicationKeyList(Author from) throws IOException, SAXException {
-        List<String> publicationKeys = new ArrayList<>();
+        List<String> publicationKeys = new ArrayList<String>();
         HttpResponse response = Utils.executeRequest(new HttpGet(PUBLICATIONS_URL.replace(":urlpt:", from.getUrlpt())));
         
         Document publicationsDoc = Utils.parseXML(response.getEntity().getContent()); 

@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package dblp;
 
 import java.io.IOException;
@@ -14,14 +10,14 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 /**
- *
- * @author Martin
+ * Used for representing details of a publication
+ * @author Martin Leinberger
  */
 public class Publication {
     private final static String PUBLICATION_URL = "http://dblp.uni-trier.de/rec/bibtex/:key:.xml";
     
     private String key;
-    private List<String> authors = new ArrayList<>();
+    private List<String> authors = new ArrayList<String>();
     private String title;
     private String year;
     
