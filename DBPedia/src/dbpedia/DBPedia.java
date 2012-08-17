@@ -54,7 +54,7 @@ public class DBPedia {
         combinedResult.add("abstract", new JsonPrimitive(result.next().get("abstract").toString()));
         
         //write output
-       FileWriter writer = new FileWriter("otuput.json");
+       FileWriter writer = new FileWriter("output.json");
        writer.write(GSON.toJson(combinedResult));
        writer.close();
     }
