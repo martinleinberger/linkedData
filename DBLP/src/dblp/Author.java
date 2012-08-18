@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.w3c.dom.Document;
@@ -15,8 +16,9 @@ import org.xml.sax.SAXException;
  * @author Martin Leinberger
  */
 public class Author {
-    //Searching for authors
     private final static String AUTHOR_SEARCH_URL = "http://dblp.uni-trier.de/search/author?xauthor=:param:";
+    private final static String PUBLICATIONS_URL = "http://dblp.uni-trier.de/rec/pers/:urlpt:/xk";
+    
     
     public static List<Author> searchAuthors(String param) throws IOException, SAXException {
         List<Author> authors = new ArrayList<Author>();      
@@ -31,28 +33,29 @@ public class Author {
         return authors;
     }
     
-    //getting keys for all published articles by an author
-    private final static String PUBLICATIONS_URL = "http://dblp.uni-trier.de/rec/pers/:urlpt:/xk";
-    
-    public static List<String> getPublicationKeyList(Author from) throws IOException, SAXException {
-        List<String> publicationKeys = new ArrayList<String>();
-        HttpResponse response = Utils.executeRequest(new HttpGet(PUBLICATIONS_URL.replace(":urlpt:", from.getUrlpt())));
-        
-        Document publicationsDoc = Utils.parseXML(response.getEntity().getContent()); 
-        NodeList nodeList = publicationsDoc.getElementsByTagName("dblpkey");
-        for (int i = 0; i < nodeList.getLength(); i++)
-            if (!nodeList.item(i).hasAttributes()) 
-                publicationKeys.add(nodeList.item(i).getTextContent());
-        
-        return publicationKeys;
-    }
     
     private String name;
     private String urlpt;
+    private List<String> publicationKeys;
     
     public Author(String name, String urlpt) {
         this.name = name;
         this.urlpt = urlpt;
+    }
+    
+    private void cachePublicationKeys() {
+        try {
+            publicationKeys = new ArrayList<String>();
+            HttpResponse response = Utils.executeRequest(new HttpGet(PUBLICATIONS_URL.replace(":urlpt:", urlpt)));
+
+            Document publicationsDoc = Utils.parseXML(response.getEntity().getContent()); 
+            NodeList nodeList = publicationsDoc.getElementsByTagName("dblpkey");
+            for (int i = 0; i < nodeList.getLength(); i++)
+                if (!nodeList.item(i).hasAttributes()) 
+                    publicationKeys.add(nodeList.item(i).getTextContent());
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public String getName() {
@@ -71,8 +74,29 @@ public class Author {
         this.urlpt = urlpt;
     }
     
+    public List<String> getPublicationKeys() {
+        if (publicationKeys == null)
+            cachePublicationKeys();
+        return publicationKeys;
+    }
+    
     @Override
     public String toString() {
         return "[name: " + name + ", urlpt: " + urlpt + "]";
+    }
+    
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Author)
+            if (((Author)obj).name.equals(this.name))
+                return true;
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 79 * hash + Objects.hashCode(this.name);
+        return hash;
     }
 }

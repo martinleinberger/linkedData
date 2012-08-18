@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package dblp;
 
 import java.io.BufferedReader;
@@ -21,7 +17,7 @@ import org.xml.sax.SAXException;
 
 /**
  *
- * @author Martin
+ * @author Martin Leinberger
  */
 public class Utils {
     private final static DocumentBuilderFactory dbFactory;
