@@ -1,0 +1,1510 @@
+{
+  "matched": [
+    {
+      "name": "XPath",
+      "url": "http://101companies.org/index.php/Language:XPath",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "xpathAPI"
+        }
+      ],
+      "abstract": "XPath, the XML Path Language, is a query language for selecting nodes from an XML document. In addition, XPath may be used to compute values from the content of an XML document. XPath was defined by the World Wide Web Consortium (W3C) .@en"
+    },
+    {
+      "name": "EXE",
+      "url": "http://101companies.org/index.php/Language:EXE",
+      "implementations": [],
+      "abstract": "EXE is the common filename extension denoting an executable file in the DOS, OpenVMS, Microsoft Windows, Symbian, and OS/2 operating systems. Besides the executable program, many EXE files contain other components called resources, such as bitmaps and icons which the executable program may use for its graphical user interface.@en"
+    },
+    {
+      "name": "Java",
+      "url": "http://101companies.org/index.php/Language:Java",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "android"
+        },
+        {
+          "type": "Implementation",
+          "name": "android2"
+        },
+        {
+          "type": "Implementation",
+          "name": "antlrAcceptor"
+        },
+        {
+          "type": "Implementation",
+          "name": "antlrLexer"
+        },
+        {
+          "type": "Implementation",
+          "name": "antlrObjects"
+        },
+        {
+          "type": "Implementation",
+          "name": "antlrParser"
+        },
+        {
+          "type": "Implementation",
+          "name": "antlrTrees"
+        },
+        {
+          "type": "Implementation",
+          "name": "atl"
+        },
+        {
+          "type": "Implementation",
+          "name": "dom"
+        },
+        {
+          "type": "Implementation",
+          "name": "egl"
+        },
+        {
+          "type": "Implementation",
+          "name": "emfGenerative"
+        },
+        {
+          "type": "Implementation",
+          "name": "emfReflexive"
+        },
+        {
+          "type": "Implementation",
+          "name": "gra2mol"
+        },
+        {
+          "type": "Implementation",
+          "name": "gwt"
+        },
+        {
+          "type": "Implementation",
+          "name": "gwtTree"
+        },
+        {
+          "type": "Implementation",
+          "name": "hadoop"
+        },
+        {
+          "type": "Implementation",
+          "name": "hibernate"
+        },
+        {
+          "type": "Implementation",
+          "name": "hibernate2"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaComposition"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaExorcism"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaInheritance"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaLexer"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaMultithreading"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaParseLib"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaParser"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaRmi"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaScanner"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaStatic"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaSyb"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaTemplate"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaTree"
+        },
+        {
+          "type": "Implementation",
+          "name": "javaVisitor"
+        },
+        {
+          "type": "Implementation",
+          "name": "javawsClient"
+        },
+        {
+          "type": "Implementation",
+          "name": "javawsServer"
+        },
+        {
+          "type": "Implementation",
+          "name": "jaxbChoice"
+        },
+        {
+          "type": "Implementation",
+          "name": "jaxbComposition"
+        },
+        {
+          "type": "Implementation",
+          "name": "jaxbExtension"
+        },
+        {
+          "type": "Implementation",
+          "name": "jaxbSubstitution"
+        },
+        {
+          "type": "Implementation",
+          "name": "jdbc"
+        },
+        {
+          "type": "Implementation",
+          "name": "jdbc2"
+        },
+        {
+          "type": "Implementation",
+          "name": "jdom"
+        },
+        {
+          "type": "Implementation",
+          "name": "jgralab"
+        },
+        {
+          "type": "Implementation",
+          "name": "jsf"
+        },
+        {
+          "type": "Implementation",
+          "name": "sax"
+        },
+        {
+          "type": "Implementation",
+          "name": "seam"
+        },
+        {
+          "type": "Implementation",
+          "name": "simpleAndroid"
+        },
+        {
+          "type": "Implementation",
+          "name": "strutsAnnotation"
+        },
+        {
+          "type": "Implementation",
+          "name": "strutsXml"
+        },
+        {
+          "type": "Implementation",
+          "name": "swing"
+        },
+        {
+          "type": "Implementation",
+          "name": "xom"
+        },
+        {
+          "type": "Implementation",
+          "name": "xpathAPI"
+        },
+        {
+          "type": "Implementation",
+          "name": "xtext"
+        }
+      ],
+      "abstract": "Java is a programming language originally developed by James Gosling at Sun Microsystems (which has since merged into Oracle Corporation) and released in 1995 as a core component of Sun Microsystems\u0027 Java platform. The language derives much of its syntax from C and C++ but has a simpler object model and fewer low-level facilities. Java applications are typically compiled to bytecode that can run on any Java Virtual Machine (JVM) regardless of computer architecture. Java is a general-purpose, concurrent, class-based, object-oriented language that is specifically designed to have as few implementation dependencies as possible. It is intended to let application developers \"write once, run anywhere\" (WORA), meaning that code that runs on one platform does not need to be recompiled to run on another. Java is currently one of the most popular programming languages in use, particularly for client-server web applications, with a reported 10 million users. The original and reference implementation Java compilers, virtual machines, and class libraries were developed by Sun from 1995. As of May 2007, in compliance with the specifications of the Java Community Process, Sun relicensed most of its Java technologies under the GNU General Public License. Others have also developed alternative implementations of these Sun technologies, such as the GNU Compiler for Java and GNU Classpath.@en"
+    },
+    {
+      "name": "Scala",
+      "url": "http://101companies.org/index.php/Language:Scala",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "kiama"
+        },
+        {
+          "type": "Implementation",
+          "name": "scala2"
+        },
+        {
+          "type": "Implementation",
+          "name": "scalaXML"
+        }
+      ],
+      "abstract": "Scala is a multi-paradigm programming language designed to integrate features of object-oriented programming and functional programming. The name Scala is a blend of \"scalable\" and \"language\", signifying that it is designed to grow with the demands of its users. James Strachan, the creator of Groovy, described Scala as a possible successor to Java.@en"
+    },
+    {
+      "name": "JavaScript",
+      "url": "http://101companies.org/index.php/Language:JavaScript",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "gwt"
+        },
+        {
+          "type": "Implementation",
+          "name": "gwtTree"
+        },
+        {
+          "type": "Implementation",
+          "name": "happstack"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5XMLHttpRequest"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5ajax"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5indexedDatabase"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5local"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5session"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5tree"
+        },
+        {
+          "type": "Implementation",
+          "name": "jsf"
+        },
+        {
+          "type": "Implementation",
+          "name": "mongodb"
+        },
+        {
+          "type": "Implementation",
+          "name": "pyjamas"
+        },
+        {
+          "type": "Implementation",
+          "name": "rubyonrails"
+        },
+        {
+          "type": "Implementation",
+          "name": "seam"
+        },
+        {
+          "type": "Implementation",
+          "name": "webDSL"
+        }
+      ],
+      "abstract": "JavaScript (sometimes abbreviated JS) is a prototype-based scripting language that is dynamic, weakly typed and has first-class functions. It is a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. JavaScript was formalized in the ECMAScript language standard and is primarily used in the form of client-side JavaScript, implemented as part of a Web browser in order to provide enhanced user interfaces and dynamic websites. This enables programmatic access to computational objects within a host environment. JavaScript\u0027s use in applications outside Web pagesÂ â for example in PDF documents, site-specific browsers, and desktop widgetsÂ â is also significant. Newer and faster JavaScript VMs and frameworks built upon them have also increased the popularity of JavaScript for server-side web applications. JavaScript uses syntax influenced by that of C. JavaScript copies many names and naming conventions from Java, but the two languages are otherwise unrelated and have very different semantics. The key design principles within JavaScript are taken from the Self and Scheme programming languages.@en"
+    },
+    {
+      "name": "Java bytecode",
+      "url": "http://101companies.org/index.php/Language:Java bytecode",
+      "implementations": [],
+      "abstract": "Java bytecode is the form of instructions that the Java virtual machine executes. Each bytecode opcode is one byte in length, although some require parameters, resulting in some multi-byte instructions. Not all of the possible 256 opcodes are used. 51 are reserved for future use. Beyond that, Sun Microsystems, the original creators of the Java programming language, the Java virtual machine and other components of the Java Runtime Environment (JRE), have set aside three values to be permanently unimplemented.@en"
+    },
+    {
+      "name": "XML",
+      "url": "http://101companies.org/index.php/Language:XML",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "android"
+        },
+        {
+          "type": "Implementation",
+          "name": "android2"
+        },
+        {
+          "type": "Implementation",
+          "name": "dom"
+        },
+        {
+          "type": "Implementation",
+          "name": "gwt"
+        },
+        {
+          "type": "Implementation",
+          "name": "gwtTree"
+        },
+        {
+          "type": "Implementation",
+          "name": "hibernate"
+        },
+        {
+          "type": "Implementation",
+          "name": "hibernate2"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5XMLHttpRequest"
+        },
+        {
+          "type": "Implementation",
+          "name": "hxt"
+        },
+        {
+          "type": "Implementation",
+          "name": "hxtPickler"
+        },
+        {
+          "type": "Implementation",
+          "name": "jaxbChoice"
+        },
+        {
+          "type": "Implementation",
+          "name": "jaxbComposition"
+        },
+        {
+          "type": "Implementation",
+          "name": "jaxbExtension"
+        },
+        {
+          "type": "Implementation",
+          "name": "jaxbSubstitution"
+        },
+        {
+          "type": "Implementation",
+          "name": "jdom"
+        },
+        {
+          "type": "Implementation",
+          "name": "jsf"
+        },
+        {
+          "type": "Implementation",
+          "name": "sax"
+        },
+        {
+          "type": "Implementation",
+          "name": "seam"
+        },
+        {
+          "type": "Implementation",
+          "name": "simpleAndroid"
+        },
+        {
+          "type": "Implementation",
+          "name": "strutsAnnotation"
+        },
+        {
+          "type": "Implementation",
+          "name": "strutsXml"
+        },
+        {
+          "type": "Implementation",
+          "name": "template"
+        },
+        {
+          "type": "Implementation",
+          "name": "wcf"
+        },
+        {
+          "type": "Implementation",
+          "name": "xom"
+        },
+        {
+          "type": "Implementation",
+          "name": "xpathAPI"
+        },
+        {
+          "type": "Implementation",
+          "name": "xquery"
+        },
+        {
+          "type": "Implementation",
+          "name": "xslt"
+        }
+      ],
+      "abstract": "{{stack| {{Infobox file format | icon \u003d | logo \u003d | screenshot \u003d | extension \u003d . xml | mime \u003d application/xml\u003c/code\u003e, (deprecated in an expired draft) and end with a, or begin with the character and end with a . Strings of characters which are not markup are content. Tag A markup construct that begins with and ends with . Tags come in three flavors: start-tags; for example: end-tags; for example: empty-element tags; for example: \u003c/code\u003e Element A logical document component either begins with a start-tag and ends with a matching end-tag or consists only of an empty-element tag. The characters between the start- and end-tags, if any, are the element\u0027s content, and may contain markup, including other elements, which are called child elements. An example of an element is . Another is \u003c/code\u003e. Attribute A markup construct consisting of a name/value pair that exists within a start-tag or empty-element tag. In the example (below) the element img has two attributes, src and alt: . Another example would be where the name of the attribute is \"number\" and the value is \"3\". XML Declaration XML documents may begin by declaring some information about themselves, as in the following example:@en"
+    },
+    {
+      "name": "OGNL",
+      "url": "http://101companies.org/index.php/Language:OGNL",
+      "implementations": [],
+      "abstract": "Object-Graph Navigation Language (OGNL), created by OGNL Technology, is an open-source Expression Language (EL) for Java, which, while using simpler expressions than the full range of those supported by the Java language, allows getting and setting properties (through defined setProperty and getProperty methods, found in JavaBeans), and execution of methods of Java classes. It also allows for simpler array manipulation. It is aimed to be used in Java EE applications with taglibs as expression language. The OpenSymphony is now defunct; a new OGNL 4 fork is developed now as a part of the Apache Commons.@en"
+    },
+    {
+      "name": "Erlang",
+      "url": "http://101companies.org/index.php/Language:Erlang",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "erlang"
+        }
+      ],
+      "abstract": "ErlangParadigm(s) multi-paradigm: concurrent, functionalAppeared in 1986Designed by EricssonDeveloper EricssonStable release R15B01 (12 April 2012; 2 months ago \u0026#160)Typing discipline dynamic, strongMajor implementations ErlangInfluenced by Prolog, MLInfluenced Clojure, Rust, Scala, OpaLicense Modified MPLWebsite [http://www. erlang. org http://www. erlang. org]Wikibooks logo Erlang Programming at Wikibooks Erlang is a general-purpose concurrent, garbage-collected programming language and runtime system. The sequential subset of Erlang is a functional language, with strict evaluation, single assignment, and dynamic typing. It was designed by Ericsson to support distributed, fault-tolerant, soft-real-time, non-stop applications. It supports hot swapping, so that code can be changed without stopping a system. While threads are considered to be a complicated and error-prone topic in most languages, Erlang provides language-level features for creating and managing processes with the aim of simplifying concurrent programming. Though all concurrency is explicit in Erlang, processes communicate using message passing instead of shared variables, which removes the need for locks. The first version was developed by Joe Armstrong in 1986. It was originally a proprietary language within Ericsson, but was released as open source in 1998.@en"
+    },
+    {
+      "name": "AspectJ",
+      "url": "http://101companies.org/index.php/Language:AspectJ",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "aspectJ"
+        }
+      ],
+      "abstract": "AspectJ is an aspect-oriented extension created at PARC for the Java programming language. It is available in Eclipse Foundation open-source projects, both stand-alone and integrated into Eclipse. AspectJ has become the widely-used de-facto standard for AOP by emphasizing simplicity and usability for end users. It uses Java-like syntax and has included IDE integrations for displaying crosscutting structure since its initial public release in 2001.@en"
+    },
+    {
+      "name": "Python",
+      "url": "http://101companies.org/index.php/Language:Python",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "pyjamas"
+        }
+      ],
+      "abstract": "Python is a general-purpose, high-level programming language whose design philosophy emphasizes code readability, remarkable power and very clear syntax, and its standard library is large and comprehensive. Python supports multiple programming paradigms, primarily but not limited to object-oriented, imperative and, to a lesser extent, functional programming styles. It features a fully dynamic type system and automatic memory management, similar to that of Scheme, Ruby, Perl, and Tcl. Like other dynamic languages, Python is often used as a scripting language, but is also used in a wide range of non-scripting contexts. Using third-party tools, Python code can be packaged into standalone executable programs. Python interpreters are available for many operating systems. The reference implementation of Python is free and open source software and has a community-based development model, as do nearly all of its alternative implementations. CPython is managed by the non-profit Python Software Foundation.@en"
+    },
+    {
+      "name": "XQuery",
+      "url": "http://101companies.org/index.php/Language:XQuery",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "xquery"
+        }
+      ],
+      "abstract": "XQuery is a query and functional programming language that is designed to query collections of XML data. XQuery 1.0 was developed by the XML Query working group of the W3C. The work was closely coordinated with the development of XSLT 2.0 by the XSL Working Group; the two groups shared responsibility for XPath 2.0, which is a subset of XQuery 1.0. XQuery 1.0 became a W3C Recommendation on January 23, 2007 . \"The mission of the XML Query project is to provide flexible query facilities to extract data from real and virtual documents on the World Wide Web, therefore finally providing the needed interaction between the Web world and the database world. Ultimately, collections of XML files will be accessed like databases\".@en"
+    },
+    {
+      "name": "Perl",
+      "url": "http://101companies.org/index.php/Language:Perl",
+      "implementations": [],
+      "abstract": "Perl is a high-level, general-purpose, interpreted, dynamic programming language. Though Perl is not officially an acronym, there are various backronyms in usage, such as: Practical Extraction and Reporting Language. Perl was originally developed by Larry Wall in 1987 as a general-purpose Unix scripting language to make report processing easier. Since then, it has undergone many changes and revisions and become widely popular amongst programmers. Larry Wall continues to oversee development of the core language, and its upcoming version, Perl 6. Perl borrows features from other programming languages including C, shell scripting, AWK, and sed. The language provides powerful text processing facilities without the arbitrary data length limits of many contemporary Unix tools, facilitating easy manipulation of text files. Perl gained widespread popularity in the late 1990s as a CGI scripting language, in part due to its parsing abilities. In addition to CGI, Perl is used for graphics programming, system administration, network programming, finance, bioinformatics, and other applications. Perl is nicknamed \"the Swiss Army chainsaw of scripting languages\" because of its flexibility and power. In 1998, it was also referred to as the \"duct tape that holds the Internet together\", in reference to its ubiquity and perceived inelegance.@en"
+    },
+    {
+      "name": "XHTML",
+      "url": "http://101companies.org/index.php/Language:XHTML",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "happstack"
+        },
+        {
+          "type": "Implementation",
+          "name": "haskellCGI"
+        },
+        {
+          "type": "Implementation",
+          "name": "jsf"
+        },
+        {
+          "type": "Implementation",
+          "name": "seam"
+        }
+      ],
+      "abstract": "XHTML (eXtensible HyperText Markup Language) is a family of XML markup languages that mirror or extend versions of the widely-used Hypertext Markup Language (HTML), the language in which web pages are written. While HTML was defined as an application of Standard Generalized Markup Language (SGML), a very flexible markup language framework, XHTML is an application of XML, a more restrictive subset of SGML. Because XHTML documents need to be well-formed, they can be parsed using standard XML parsersâunlike HTML, which requires a lenient HTML-specific parser. XHTML 1.0 became a World Wide Web Consortium (W3C) Recommendation on January 26, 2000. XHTML 1.1 became a W3C Recommendation on May 31, 2001. XHTML5 is undergoing development as of September 2009, as part of the HTML5 specification.@en"
+    },
+    {
+      "name": "JSON",
+      "url": "http://101companies.org/index.php/Language:JSON",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "html5ajax"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5local"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5session"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5tree"
+        }
+      ],
+      "abstract": "JSON, or JavaScript Object Notation, is a lightweight text-based open standard designed for human-readable data interchange. It is derived from the JavaScript scripting language for representing simple data structures and associative arrays, called objects. Despite its relationship to JavaScript, it is language-independent, with parsers available for many languages. The JSON format was originally specified by Douglas Crockford, and is described in RFC 4627. The official Internet media type for JSON is . The JSON filename extension is . The JSON format is often used for serializing and transmitting structured data over a network connection. It is used primarily to transmit data between a server and web application, serving as an alternative to XML.@en"
+    },
+    {
+      "name": "HTML",
+      "url": "http://101companies.org/index.php/Language:HTML",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "gwt"
+        },
+        {
+          "type": "Implementation",
+          "name": "gwtTree"
+        },
+        {
+          "type": "Implementation",
+          "name": "pyjamas"
+        },
+        {
+          "type": "Implementation",
+          "name": "rubyonrails"
+        },
+        {
+          "type": "Implementation",
+          "name": "strutsAnnotation"
+        },
+        {
+          "type": "Implementation",
+          "name": "zend"
+        }
+      ],
+      "abstract": "HyperText Markup Language (HTML) is the main markup language for web pages. HTML elements are the basic building-blocks of webpages. HTML is written in the form of HTML elements consisting of tags enclosed in angle brackets (like), within the web page content. HTML tags most commonly come in pairs like \u003ch1\u003e and \u003c/h1\u003e, although some tags, known as empty elements, are unpaired, for example . The first tag in a pair is the start tag, the second tag is the end tag (they are also called opening tags and closing tags). In between these tags web designers can add text, tags, comments and other types of text-based content. The purpose of a web browser is to read HTML documents and compose them into visible or audible web pages. The browser does not display the HTML tags, but uses the tags to interpret the content of the page. HTML elements form the building blocks of all websites. HTML allows images and objects to be embedded and can be used to create interactive forms. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. It can embed scripts in languages such as JavaScript which affect the behavior of HTML webpages. Web browsers can also refer to Cascading Style Sheets (CSS) to define the appearance and layout of text and other material. The W3C, maintainer of both the HTML and the CSS standards, encourages the use of CSS over explicitly presentational HTML markup.@en"
+    },
+    {
+      "name": "Ruby",
+      "url": "http://101companies.org/index.php/Language:Ruby",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "rubyonrails"
+        }
+      ],
+      "abstract": "Ruby is a dynamic, reflective, general-purpose object-oriented programming language that combines syntax inspired by Perl with Smalltalk-like features. It was also influenced by Eiffel and Lisp. Ruby was first designed and developed in the mid-1990s by Yukihiro \"Matz\" Matsumoto in Japan. Ruby supports multiple programming paradigms, including functional, object oriented, imperative and reflective. It also has a dynamic type system and automatic memory management; it is therefore similar in varying respects to Smalltalk, Python, Perl, Lisp, Dylan, Pike, and CLU. The standard 1.8.7 implementation is written in C, as a single-pass interpreted language. The language specifications for Ruby were developed by the Open Standards Promotion Center of the Information-Technology Promotion Agency for submission to the Japanese Industrial Standards Committee and then to the International Organization for Standardization. It was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011 and an international standard (ISO/IEC 30170) in 2012. As of 2010, there are a number of complete or upcoming alternative implementations of Ruby, including YARV, JRuby, Rubinius, IronRuby, MacRuby, and HotRuby. Each takes a different approach, with IronRuby, JRuby, MacRuby and Rubinius providing just-in-time compilation and MacRuby also providing ahead-of-time compilation. The official 1.9 branch uses YARV, as will 2.0 (development), and will eventually supersede the slower Ruby MRI.@en"
+    },
+    {
+      "name": "Groovy",
+      "url": "http://101companies.org/index.php/Language:Groovy",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "gremlinADASHneo4j"
+        },
+        {
+          "type": "Implementation",
+          "name": "groovyDataFlowVariables"
+        }
+      ],
+      "abstract": "Groovy is an object-oriented programming language for the Java platform. It is a dynamic language with features similar to those of Python, Ruby, Perl, and Smalltalk. It can be used as a scripting language for the Java Platform. Groovy uses a Java-like bracket syntax. It is dynamically compiled to Java Virtual Machine (JVM) bytecode and interoperates with other Java code and libraries. Most Java code is also syntactically valid Groovy. Groovy 1.0 was released on January 2, 2007.@en"
+    },
+    {
+      "name": "SQL",
+      "url": "http://101companies.org/index.php/Language:SQL",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "haskellDB"
+        },
+        {
+          "type": "Implementation",
+          "name": "hdbc"
+        },
+        {
+          "type": "Implementation",
+          "name": "hibernate"
+        },
+        {
+          "type": "Implementation",
+          "name": "hibernate2"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5ajax"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5tree"
+        },
+        {
+          "type": "Implementation",
+          "name": "jdbc"
+        },
+        {
+          "type": "Implementation",
+          "name": "jdbc2"
+        },
+        {
+          "type": "Implementation",
+          "name": "mySql"
+        },
+        {
+          "type": "Implementation",
+          "name": "seam"
+        },
+        {
+          "type": "Implementation",
+          "name": "sqlServer"
+        }
+      ],
+      "abstract": "SQL is a special-purpose programming language designed for managing data in relational database management systems (RDBMS). Originally based upon relational algebra and tuple relational calculus, its scope includes data insert, query, update and delete, schema creation and modification, and data access control. SQL was one of the first commercial languages for Edgar F. Codd\u0027s relational model, as described in his influential 1970 paper, \"A Relational Model of Data for Large Shared Data Banks\". Despite not adhering to the relational model as described by Codd, it became the most widely used database language. Although SQL is often described as, and to a great extent is, a declarative language, it also includes procedural elements. SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standards (ISO) in 1987. Since then, the standard has been enhanced several times with added features. However, issues of SQL code portability between major RDBMS products still exist due to lack of full compliance with, or different interpretations of, the standard. Among the reasons mentioned are the large size and incomplete specification of the standard, as well as vendor lock-in.@en"
+    },
+    {
+      "name": "HTML5",
+      "url": "http://101companies.org/index.php/Language:HTML5",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "html5XMLHttpRequest"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5ajax"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5indexedDatabase"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5local"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5session"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5tree"
+        }
+      ],
+      "abstract": "HTML5 is a markup language for structuring and presenting content for the World Wide Web, and is a core technology of the Internet originally proposed by Opera Software. It is the fifth revision of the HTML standard (created in 1990 and standardized as HTML4 as of 1997) and, as of May 2012, is still under development. Its core aims have been to improve the language with support for the latest multimedia while keeping it easily readable by humans and consistently understood by computers and devices. HTML5 is intended to subsume not only HTMLÂ 4, but XHTMLÂ 1 and DOM Level 2 HTML as well. Following its immediate predecessors HTMLÂ 4.01 and XHTMLÂ 1.1, HTML5 is a response to the observation that the HTML and XHTML in common use on the World Wide Web are a mixture of features introduced by various specifications, along with those introduced by software products such as web browsers, those established by common practice, and the many syntax errors in existing web documents. It is also an attempt to define a single markup language that can be written in either HTML or XHTML syntax. It includes detailed processing models to encourage more interoperable implementations; it extends, improves and rationalises the markup available for documents, and introduces markup and application programming interfaces (APIs) for complex web applications. For the same reasons, HTML5 is also a potential candidate for cross-platform mobile applications. Many features of HTML5 have been built with the consideration of being able to run on low-powered devices such as smartphones and tablets. In December 2011 research firm Strategy Analytics forecast sales of HTML5 compatible phones will top 1 billion in 2013. In particular, HTML5 adds many new syntactical features. These include the new, and elements, as well as the integration of scalable vector graphics (SVG) content that replaces the uses of generic tags and MathML for mathematical formulae. These features are designed to make it easy to include and handle multimedia and graphical content on the web without having to resort to proprietary plugins and APIs. Other new elements, such as,, and, are designed to enrich the semantic content of documents. New attributes have been introduced for the same purpose, while some elements and attributes have been removed. Some elements, such as, and have been changed, redefined or standardized. The APIs and document object model (DOM) are no longer afterthoughts, but are fundamental parts of the HTML5 specification. HTML5 also defines in some detail the required processing for invalid documents so that syntax errors will be treated uniformly by all conforming browsers and other user agents.@en"
+    },
+    {
+      "name": "BSON",
+      "url": "http://101companies.org/index.php/Language:BSON",
+      "implementations": [],
+      "abstract": "BSON is a computer data interchange format used mainly as a data storage and network transfer format in the MongoDB database. It is a binary form for representing simple data structures and associative arrays (called objects or documents in MongoDB). The name \"BSON\" is based on the term JSON and stands for \"Binary JSON\".@en"
+    },
+    {
+      "name": "Prolog",
+      "url": "http://101companies.org/index.php/Language:Prolog",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "prolog"
+        }
+      ],
+      "abstract": "Prolog is a general purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is declarative: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations. The language was first conceived by a group around Alain Colmerauer in Marseille, France, in the early 1970s and the first Prolog system was developed in 1972 by Colmerauer with Philippe Roussel. Prolog was one of the first logic programming languages, and remains among the most popular such languages today, with many free and commercial implementations available. While initially aimed at natural language processing, the language has since then stretched far into other areas like theorem proving, expert systems, games, automated answering systems, ontologies and sophisticated control systems. Modern Prolog environments support creating graphical user interfaces, as well as administrative and networked applications.@en"
+    },
+    {
+      "name": "Haskell",
+      "url": "http://101companies.org/index.php/Language:Haskell",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "dph"
+        },
+        {
+          "type": "Implementation",
+          "name": "happstack"
+        },
+        {
+          "type": "Implementation",
+          "name": "haskell"
+        },
+        {
+          "type": "Implementation",
+          "name": "haskellCGI"
+        },
+        {
+          "type": "Implementation",
+          "name": "haskellDB"
+        },
+        {
+          "type": "Implementation",
+          "name": "hdbc"
+        },
+        {
+          "type": "Implementation",
+          "name": "hxt"
+        },
+        {
+          "type": "Implementation",
+          "name": "hxtPickler"
+        },
+        {
+          "type": "Implementation",
+          "name": "mvar"
+        },
+        {
+          "type": "Implementation",
+          "name": "parsec"
+        },
+        {
+          "type": "Implementation",
+          "name": "syb"
+        },
+        {
+          "type": "Implementation",
+          "name": "tmvar"
+        },
+        {
+          "type": "Implementation",
+          "name": "writerMonad"
+        },
+        {
+          "type": "Implementation",
+          "name": "wxHaskell"
+        }
+      ],
+      "abstract": "Haskell is a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry. In Haskell, \"a function is a first-class citizen\" of the programming language. As a functional programming language, the primary control construct is the function. The language is rooted in the observations of Haskell Curry and his intellectual descendants, that \"a proof is a program; the formula it proves is a type for the program\".@en"
+    },
+    {
+      "name": "Smalltalk",
+      "url": "http://101companies.org/index.php/Language:Smalltalk",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "moose"
+        },
+        {
+          "type": "Implementation",
+          "name": "seaside"
+        }
+      ],
+      "abstract": "Smalltalk is an object-oriented, dynamically typed, reflective programming language. Smalltalk was created as the language to underpin the \"new world\" of computing exemplified by \"humanâcomputer symbiosis. \" It was designed and created in part for educational use, more so for constructionist learning, at the Learning Research Group (LRG) of Xerox PARC by Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Scott Wallace, and others during the 1970s. The language was first generally released as Smalltalk-80. Smalltalk-like languages are in continuing active development, and have gathered loyal communities of users around them. ANSI Smalltalk was ratified in 1998 and represents the standard version of Smalltalk.@en"
+    },
+    {
+      "name": "Unicode",
+      "url": "http://101companies.org/index.php/Language:Unicode",
+      "implementations": [],
+      "abstract": "Unicode is a computing industry standard for the consistent encoding, representation and handling of text expressed in most of the world\u0027s writing systems. Developed in conjunction with the Universal Character Set standard and published in book form as The Unicode Standard, the latest version of Unicode consists of a repertoire of more than 110,000 characters covering 100 scripts, a set of code charts for visual reference, an encoding methodology and set of standard character encodings, an enumeration of character properties such as upper and lower case, a set of reference data computer files, and a number of related items, such as character properties, rules for normalization, decomposition, collation, rendering, and bidirectional display order (for the correct display of text containing both right-to-left scripts, such as Arabic and Hebrew, and left-to-right scripts). As of 2012, the most recent version is Unicode 6.1. Unicode\u0027s success at unifying character sets has led to its widespread and predominant use in the internationalization and localization of computer software. The standard has been implemented in many recent technologies, including XML, the Java programming language, the Microsoft . NET Framework, and modern operating systems. Unicode can be implemented by different character encodings. The most commonly used encodings are UTF-8, UTF-16 and the now-obsolete UCS-2. UTF-8 uses one byte for any ASCII characters, which have the same code values in both UTF-8 and ASCII encoding, and up to four bytes for other characters. UCS-2 uses a 16-bit code unit for each character but cannot encode every character in the current Unicode standard. UTF-16 extends UCS-2, using two 16-bit units (4Â ÃÂ 8Â bit) to handle each of the additional characters.@en"
+    },
+    {
+      "name": "PHP",
+      "url": "http://101companies.org/index.php/Language:PHP",
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "html5XMLHttpRequest"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5ajax"
+        },
+        {
+          "type": "Implementation",
+          "name": "html5tree"
+        },
+        {
+          "type": "Implementation",
+          "name": "zend"
+        }
+      ],
+      "abstract": "PHP is a general-purpose server-side scripting language originally designed for Web development to produce dynamic Web pages. It is one of the first developed server-side scripting languages to be embedded into an HTML source document, rather than calling an external file to process data. Ultimately, the code is interpreted by a Web server with a PHP processor module which generates the resulting Web page. It also has evolved to include a command-line interface capability and can be used in standalone graphical applications. PHP can be deployed on most Web servers and also as a standalone shell on almost every operating system and platform free of charge. A competitor to Microsoft\u0027s Active Server Pages (ASP) server-side script engine and similar languages, PHP is installed on more than 20 million Web sites and 1 million Web servers. PHP was originally created by Rasmus Lerdorf in 1995. The main implementation of PHP is now produced by The PHP Group and serves as the formal reference to the PHP language. PHP is free software released under the PHP License, which is incompatible with the GNU General Public License (GPL) due to restrictions on the usage of the term PHP. While PHP originally stood for \"Personal Home Page\", it is now said to stand for \"PHP: Hypertext Preprocessor\", a recursive acronym.@en"
+    }
+  ],
+  "unmatched": [
+    {
+      "name": "FSharp",
+      "url": "http://101companies.org/index.php/Language:FSharp",
+      "headline_links": [
+        {
+          "type": "Page",
+          "name": "Functional_programming_language"
+        },
+        {
+          "type": "Page",
+          "name": "OO_programming_language"
+        }
+      ],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "fsharp"
+        }
+      ],
+      "headline": "a [[:Category:Functional programming language|functional]] [[:Category:OO programming language|OO]] programming language",
+      "type": "Language"
+    },
+    {
+      "name": "XSD",
+      "url": "http://101companies.org/index.php/Language:XSD",
+      "headline_links": [],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "jaxbChoice"
+        },
+        {
+          "type": "Implementation",
+          "name": "jaxbComposition"
+        },
+        {
+          "type": "Implementation",
+          "name": "jaxbExtension"
+        },
+        {
+          "type": "Implementation",
+          "name": "jaxbSubstitution"
+        },
+        {
+          "type": "Implementation",
+          "name": "sax"
+        },
+        {
+          "type": "Implementation",
+          "name": "xslt"
+        }
+      ],
+      "headline": "TBD",
+      "type": "Language"
+    },
+    {
+      "name": "Zip",
+      "url": "http://101companies.org/index.php/Language:Zip",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "An archive file format",
+      "type": "Language"
+    },
+    {
+      "name": "PlainText",
+      "description_links": [],
+      "url": "http://101companies.org/index.php/Language:PlainText",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "an text file without any formatting commands",
+      "type": "Language",
+      "description": "A plain text file contains readable characters. There are no formatting commands defined. Plain text files in the context of the 101companies projects are widely used as Readme files, which are mostly called Readme.txt or Readme.md."
+    },
+    {
+      "name": "ATL",
+      "description_links": [],
+      "url": "http://101companies.org/index.php/Language:ATL",
+      "headline_links": [],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "atl"
+        }
+      ],
+      "headline": "The ATLAS Transformation Language for model transformation",
+      "type": "Language",
+      "description": "ATL stands for ATLAS Transformation Language.\nIn the narrow sense, ATL is indeed a language.\nIn the wider sense, ATL is occasionally used to refer to the toolkit supporting ATL."
+    },
+    {
+      "name": "Rascal",
+      "url": "http://101companies.org/index.php/Language:Rascal",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "A DSL for source code analysis and manipulation",
+      "type": "Language"
+    },
+    {
+      "name": "HQL",
+      "url": "http://101companies.org/index.php/Language:HQL",
+      "headline_links": [
+        {
+          "type": "Technology",
+          "name": "Hibernate"
+        }
+      ],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "hibernate"
+        },
+        {
+          "type": "Implementation",
+          "name": "seam"
+        }
+      ],
+      "headline": "The [[Technology:Hibernate]] Query Language",
+      "type": "Language"
+    },
+    {
+      "name": "UML",
+      "url": "http://101companies.org/index.php/Language:UML",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "The Unified Modeling Language",
+      "type": "Language"
+    },
+    {
+      "name": "Android",
+      "description_links": [
+        {
+          "type": "Technology",
+          "name": "Android_platform"
+        },
+        {
+          "type": "Technology",
+          "name": "Android_SDK"
+        },
+        {
+          "type": "Technology",
+          "name": "ADT"
+        }
+      ],
+      "url": "http://101companies.org/index.php/Language:Android",
+      "headline_links": [
+        {
+          "type": "Page",
+          "name": "OO_programming_language"
+        },
+        {
+          "type": "Language",
+          "name": "Java"
+        }
+      ],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "android"
+        },
+        {
+          "type": "Implementation",
+          "name": "android2"
+        },
+        {
+          "type": "Implementation",
+          "name": "simpleAndroid"
+        }
+      ],
+      "headline": "an [[:Category:OO programming language]] based on [[Language:Java]]",
+      "type": "Language",
+      "description": "See elsewhere for the [[Technology:Android platform]], the [[Technology:Android SDK]] and the [[Technology:ADT]]."
+    },
+    {
+      "name": "Config",
+      "description_links": [],
+      "url": "http://101companies.org/index.php/Language:Config",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "a ASP.NET configuration language ",
+      "type": "Language",
+      "description": "Config files are XML files that contain settings for a all web applications on a server, single ones, single folders or single sites of the web applciation. Settings can be compiler options, options for debugging, but also user authentification and error messages. They are usually called Web.config, but several .config files for the different compilation targets are also common."
+    },
+    {
+      "name": "XMI",
+      "url": "http://101companies.org/index.php/Language:XMI",
+      "headline_links": [
+        {
+          "type": "Language",
+          "name": "XML"
+        },
+        {
+          "type": "Technology",
+          "name": "MOF"
+        },
+        {
+          "type": "Concept",
+          "name": "metadata"
+        },
+        {
+          "type": "Concept",
+          "name": "model"
+        }
+      ],
+      "implementations": [],
+      "headline": "an [[Language:XML]]-based interchange format for [[Technology:MOF]]-based [[metadata]] or [[model]]s",
+      "type": "Language"
+    },
+    {
+      "name": "JNLP",
+      "url": "http://101companies.org/index.php/Language:JNLP",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "a language serving the Java Network Launching Protocol",
+      "type": "Language"
+    },
+    {
+      "name": "EBNF",
+      "url": "http://101companies.org/index.php/Language:EBNF",
+      "headline_links": [
+        {
+          "type": "Language",
+          "name": "BNF"
+        }
+      ],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "xtext"
+        }
+      ],
+      "headline": "the Extended [[Language:BNF]] as a notation for context-free grammars",
+      "type": "Language"
+    },
+    {
+      "name": "tar",
+      "url": "http://101companies.org/index.php/Language:tar",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "An archive file format",
+      "type": "Language"
+    },
+    {
+      "name": "Cobol 85",
+      "url": "http://101companies.org/index.php/Language:Cobol 85",
+      "headline_links": [
+        {
+          "type": "Language",
+          "name": "Cobol"
+        }
+      ],
+      "implementations": [],
+      "headline": "a standardized version of [[Language:Cobol]]",
+      "type": "Language"
+    },
+    {
+      "name": "XSLT",
+      "url": "http://101companies.org/index.php/Language:XSLT",
+      "headline_links": [],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "xslt"
+        }
+      ],
+      "headline": "an XML language for XML processing, specifically for transformation",
+      "type": "Language"
+    },
+    {
+      "name": "Shell Script",
+      "description_links": [],
+      "url": "http://101companies.org/index.php/Language:Shell Script",
+      "headline_links": [
+        {
+          "type": "Page",
+          "name": "scripting_language"
+        }
+      ],
+      "implementations": [],
+      "headline": "A  [[:Category:scripting language]] written for shells or command line interpreters",
+      "type": "Language",
+      "description": "A shell script is a type of script that is mainly used for file manipulation, program execution and printing text."
+    },
+    {
+      "name": "Launch file",
+      "description_links": [],
+      "url": "http://101companies.org/index.php/Language:Launch file",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "a language for launch configurations",
+      "type": "Language",
+      "description": "Launch files contain launch configurations. They are mainly used by Eclipse."
+    },
+    {
+      "name": "HSQLDialect",
+      "url": "http://101companies.org/index.php/Language:HSQLDialect",
+      "headline_links": [
+        {
+          "type": "Technology",
+          "name": "Hibernate"
+        },
+        {
+          "type": "Language",
+          "name": "SQL"
+        }
+      ],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "hibernate"
+        }
+      ],
+      "headline": "the [[Technology:Hibernate]]-specific dialect of [[Language:SQL]]",
+      "type": "Language"
+    },
+    {
+      "name": "RAR",
+      "url": "http://101companies.org/index.php/Language:RAR",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "An archive file format",
+      "type": "Language"
+    },
+    {
+      "name": "Ecore",
+      "description_links": [
+        {
+          "type": "Technology",
+          "name": "EMF"
+        }
+      ],
+      "url": "http://101companies.org/index.php/Language:Ecore",
+      "headline_links": [],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "egl"
+        },
+        {
+          "type": "Implementation",
+          "name": "emfGenerative"
+        },
+        {
+          "type": "Implementation",
+          "name": "emfReflexive"
+        }
+      ],
+      "headline": "the metamodel based on the EMOF standard",
+      "type": "Language",
+      "description": "Ecore is an essential component of [[Technology:EMF]]."
+    },
+    {
+      "name": "XLS",
+      "url": "http://101companies.org/index.php/Language:XLS",
+      "headline_links": [
+        {
+          "type": "Technology",
+          "name": "Microsoft_Excel"
+        }
+      ],
+      "implementations": [],
+      "headline": "The file format for the spreadsheet application [[Technology:Microsoft Excel]]",
+      "type": "Language"
+    },
+    {
+      "name": "GReTL",
+      "url": "http://101companies.org/index.php/Language:GReTL",
+      "headline_links": [],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "jgralab"
+        }
+      ],
+      "headline": "a language for graph transformation ",
+      "type": "Language"
+    },
+    {
+      "name": "Settings",
+      "description_links": [],
+      "url": "http://101companies.org/index.php/Language:Settings",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "A language that stores preferences",
+      "type": "Language",
+      "description": "File formats that store different settings come in different flavours. They have all in common that they are key value based. The key and the value are seperated by the letter \u003d. Every key value pair is stored in a new line. Line comments are introduced with the letter #.\nUnder Windows, a .ini file is a widely used example. Other examples include .prefs or .properties files."
+    },
+    {
+      "name": "CPlusPlus",
+      "url": "http://101companies.org/index.php/Language:CPlusPlus",
+      "headline_links": [],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "qt"
+        }
+      ],
+      "headline": "a statically typed, free-form, multi-paradigm, compiled, general-purpose programming language",
+      "type": "Language"
+    },
+    {
+      "name": "JAR",
+      "url": "http://101companies.org/index.php/Language:JAR",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "An archive file format used on the Java platform",
+      "type": "Language"
+    },
+    {
+      "name": "DLL",
+      "url": "http://101companies.org/index.php/Language:DLL",
+      "headline_links": [
+        {
+          "type": "Technology",
+          "name": "DLL"
+        }
+      ],
+      "implementations": [],
+      "headline": "Microsoft\u0027s file format for [[Technology:DLL]] shared libraries",
+      "type": "Language"
+    },
+    {
+      "name": "GIF",
+      "description_links": [],
+      "url": "http://101companies.org/index.php/Language:GIF",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "A image language",
+      "type": "Language",
+      "description": "The Graphics Interchange Format is a bitmap image format that is widely used in the web."
+    },
+    {
+      "name": "VB.NET",
+      "url": "http://101companies.org/index.php/Language:VB.NET",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "a programming language by Microsoft",
+      "type": "Language"
+    },
+    {
+      "name": "CSharp",
+      "description_links": [],
+      "url": "http://101companies.org/index.php/Language:CSharp",
+      "headline_links": [],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "csharp"
+        },
+        {
+          "type": "Implementation",
+          "name": "csharpAspNetMvc"
+        },
+        {
+          "type": "Implementation",
+          "name": "csharpLinqToXml"
+        },
+        {
+          "type": "Implementation",
+          "name": "ef"
+        },
+        {
+          "type": "Implementation",
+          "name": "linq2DataSet"
+        },
+        {
+          "type": "Implementation",
+          "name": "linq2Sql"
+        },
+        {
+          "type": "Implementation",
+          "name": "silverlight"
+        },
+        {
+          "type": "Implementation",
+          "name": "wcf"
+        },
+        {
+          "type": "Implementation",
+          "name": "wcfRest"
+        },
+        {
+          "type": "Implementation",
+          "name": "wp7"
+        },
+        {
+          "type": "Implementation",
+          "name": "wpf"
+        },
+        {
+          "type": "Implementation",
+          "name": "xmlReader"
+        },
+        {
+          "type": "Implementation",
+          "name": "xsdClasses"
+        },
+        {
+          "type": "Implementation",
+          "name": "xsdDataSet"
+        }
+      ],
+      "headline": "a programming language by Microsoft",
+      "type": "Language",
+      "description": "The correct title of this technology is C#. \n\nThe substitution or omission of a # sign is because of Wiki-related technical restrictions."
+    },
+    {
+      "name": "101meta",
+      "url": "http://101companies.org/index.php/Language:101meta",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "A language for associating metadata with files in a file system",
+      "type": "Language"
+    },
+    {
+      "name": "PDF",
+      "url": "http://101companies.org/index.php/Language:PDF",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "A file format used to represent documents",
+      "type": "Language"
+    },
+    {
+      "name": "MegaL",
+      "url": "http://101companies.org/index.php/Language:MegaL",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "A language for megamodeling",
+      "type": "Language"
+    },
+    {
+      "name": "BNF",
+      "url": "http://101companies.org/index.php/Language:BNF",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "the Backus-Naur Form as a notation for context-free grammars",
+      "type": "Language"
+    },
+    {
+      "name": "CSS",
+      "url": "http://101companies.org/index.php/Language:CSS",
+      "headline_links": [
+        {
+          "type": "Concept",
+          "name": "style_sheet_language"
+        },
+        {
+          "type": "Concept",
+          "name": "Web_programming"
+        }
+      ],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "gwt"
+        },
+        {
+          "type": "Implementation",
+          "name": "gwtTree"
+        },
+        {
+          "type": "Implementation",
+          "name": "happstack"
+        },
+        {
+          "type": "Implementation",
+          "name": "haskellCGI"
+        },
+        {
+          "type": "Implementation",
+          "name": "jsf"
+        },
+        {
+          "type": "Implementation",
+          "name": "rubyonrails"
+        },
+        {
+          "type": "Implementation",
+          "name": "strutsAnnotation"
+        },
+        {
+          "type": "Implementation",
+          "name": "zend"
+        }
+      ],
+      "headline": "A [[style sheet language]] for [[Web programming]]",
+      "type": "Language"
+    },
+    {
+      "name": "Haskell 98",
+      "url": "http://101companies.org/index.php/Language:Haskell 98",
+      "headline_links": [
+        {
+          "type": "Language",
+          "name": "Haskell"
+        }
+      ],
+      "implementations": [],
+      "headline": "A standardized version of [[Language:Haskell]]",
+      "type": "Language"
+    },
+    {
+      "name": "WSDL",
+      "url": "http://101companies.org/index.php/Language:WSDL",
+      "headline_links": [
+        {
+          "type": "Language",
+          "name": "XML"
+        },
+        {
+          "type": "Page",
+          "name": "Language"
+        }
+      ],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "wcf"
+        }
+      ],
+      "headline": "An [[Language:XML]]-based [[:Category:Language|language]] for functionality description of webservices",
+      "type": "Language"
+    },
+    {
+      "name": "JAXB annotations",
+      "url": "http://101companies.org/index.php/Language:JAXB annotations",
+      "headline_links": [
+        {
+          "type": "Concept",
+          "name": "ObjectASLASHXML_mapping"
+        }
+      ],
+      "implementations": [],
+      "headline": "JAXB\u0027s set of annotations for [[Object/XML mapping]]",
+      "type": "Language"
+    },
+    {
+      "name": "Cobol",
+      "url": "http://101companies.org/index.php/Language:Cobol",
+      "headline_links": [],
+      "implementations": [
+        {
+          "type": "Implementation",
+          "name": "template"
+        }
+      ],
+      "headline": "the programming language of choice for information systems in commerce (until recently)",
+      "type": "Language"
+    },
+    {
+      "name": "Java manifest file",
+      "description_links": [],
+      "url": "http://101companies.org/index.php/Language:Java manifest file",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "a metadata language Java",
+      "type": "Language",
+      "description": "Manifest files usually contain metadata about Java archives. It often describes the Java archive, the contents of it is used for or how it is used."
+    },
+    {
+      "name": "gzip",
+      "url": "http://101companies.org/index.php/Language:gzip",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "An archive file format",
+      "type": "Language"
+    },
+    {
+      "name": "xjc POJOs",
+      "url": "http://101companies.org/index.php/Language:xjc POJOs",
+      "headline_links": [
+        {
+          "type": "Language",
+          "name": "Java"
+        },
+        {
+          "type": "Technology",
+          "name": "xjc"
+        }
+      ],
+      "implementations": [],
+      "headline": "a sub-language of [[Language:Java]] that is generated by [[Technology:xjc]]",
+      "type": "Language"
+    },
+    {
+      "name": "ASCII",
+      "url": "http://101companies.org/index.php/Language:ASCII",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "",
+      "type": "Language"
+    },
+    {
+      "name": "PNG",
+      "description_links": [],
+      "url": "http://101companies.org/index.php/Language:PNG",
+      "headline_links": [],
+      "implementations": [],
+      "headline": "A image language",
+      "type": "Language",
+      "description": "The Portable Networks Graphic is a bitmap based image file format. It supports alpha transparency and compression. Today, it is a widely used format in the internet."
+    }
+  ]
+}
