@@ -1,5 +1,5 @@
 #Variables:
-csvPath = ""
+csvPath = "SoTeSoLa2012.csv"
 
 build:
 	javac -Xlint -nowarn -d . -classpath .:binLibs/* src/dblp/*.java 

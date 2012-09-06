@@ -3,7 +3,6 @@ package dblp;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.Writer;
 import java.util.*;
 import org.xml.sax.SAXException;
 
